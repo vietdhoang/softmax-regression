@@ -7,8 +7,11 @@ Logistic regression is one of the most widely used classifiers in academia. Unfo
 ## Datasets
 We used the following datasets
 - [UCI Handwritten Digits Data Set](https://archive.ics.uci.edu/ml/datasets/Optical+Recognition+of+Handwritten+Digits)
+  - The UCI Handwritten Digits Data Set is not present in this repository. It is directly available from Scikit-learn via `sklearn.datasets.load_digits`
 - [Semeion Handwritten Digit Data Set](https://archive.ics.uci.edu/ml/datasets/semeion+handwritten+digit)
+  - The cleaned data set is available in this repository as `semeion_cleaned.csv`
 - [Statlog (Landsat Satellite) Data Set](https://archive.ics.uci.edu/ml/datasets/Statlog+(Landsat+Satellite))
+  - The cleaned data set is available in this repository as `satimage_cleaned.csv`
 
 ## Methods
 To fit the softmax regression model to the data, we determined the optimal parameters for the model by minimizing the cross-entropy cost function. We minimized the cost function using stochastic gradient descent (SGD) with mini-batches and momentum.
